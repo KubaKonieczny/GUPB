@@ -55,9 +55,13 @@ class Tabard(Enum):
     MONGOL = 'Mongolek'
     PIKACHU = 'Pikachu'
     R2D2 = 'R2D2'
+    CAMPER = 'Camper'
+    GAREK = "G.A.R.E.K."
+    PIRAT = 'Pirat'
+    MINION = 'Minion'
+    RUSTLER = 'Rustler'
     REINFORCEDROGUE = 'ReinforcedRogue'
-    GAREK = "G.A.R.E.K"
-    CAMPER = 'Camper'    
+    NORGUL = 'Norgul'
     KIMDZONGNEAT = 'KimDzongNeat'
     KIRBY = 'Kirby'
 

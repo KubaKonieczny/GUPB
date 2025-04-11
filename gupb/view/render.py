@@ -76,6 +76,7 @@ class SpriteRepository:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             characters.Tabard.CAMPER: load_sprite('characters', 'champion_camper', BLACK),
             characters.Tabard.GAREK: load_sprite('characters', 'garek', BLACK),
 =======
@@ -87,6 +88,16 @@ class SpriteRepository:
 =======
             characters.Tabard.KIRBY: load_sprite('characters', 'kirby', BLACK),
 >>>>>>> kirby/kirby_ddqn_2
+=======
+            characters.Tabard.CAMPER: load_sprite('characters', 'champion_camper', BLACK),
+            characters.Tabard.GAREK: load_sprite('characters', 'garek', BLACK),
+            characters.Tabard.KIRBY: load_sprite('characters', 'kirby', BLACK),
+            characters.Tabard.PIRAT: load_sprite('characters', 'pirat', BLACK),
+            characters.Tabard.MINION: load_sprite('characters', 'minion', None),
+            characters.Tabard.RUSTLER: load_sprite('characters', 'champion_rustler', BLACK),
+            characters.Tabard.REINFORCEDROGUE: load_sprite('characters', 'reinforced_rogue', BLACK),
+            characters.Tabard.NORGUL: load_sprite('characters', 'norgul', BLACK),
+>>>>>>> garekbot/test-all-bots
 
             effects.Mist: load_sprite('effects', 'mist', BLACK),
             effects.WeaponCut: load_sprite('effects', 'blood', BLACK),
@@ -118,6 +129,7 @@ class SpriteRepository:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     characters.Tabard.CAMPER,
                     characters.Tabard.GAREK
 =======
@@ -129,6 +141,16 @@ class SpriteRepository:
 =======
                     characters.Tabard.KIRBY,
 >>>>>>> kirby/kirby_ddqn_2
+=======
+                    characters.Tabard.CAMPER,
+                    characters.Tabard.GAREK,
+                    characters.Tabard.KIRBY,
+                    characters.Tabard.PIRAT,
+                    characters.Tabard.MINION,
+                    characters.Tabard.RUSTLER,
+                    characters.Tabard.REINFORCEDROGUE,
+                    characters.Tabard.NORGUL,
+>>>>>>> garekbot/test-all-bots
                 ],
                 [
                     characters.Facing.RIGHT,
