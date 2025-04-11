@@ -81,6 +81,7 @@ class SpriteRepository:
             characters.Tabard.MINION: load_sprite('characters', 'minion', None),
             characters.Tabard.RUSTLER: load_sprite('characters', 'champion_rustler', BLACK),
             characters.Tabard.REINFORCEDROGUE: load_sprite('characters', 'reinforced_rogue', BLACK),
+            characters.Tabard.NORGUL: load_sprite('characters', 'norgul', BLACK),
 
             effects.Mist: load_sprite('effects', 'mist', BLACK),
             effects.WeaponCut: load_sprite('effects', 'blood', BLACK),
@@ -116,6 +117,7 @@ class SpriteRepository:
                     characters.Tabard.MINION,
                     characters.Tabard.RUSTLER,
                     characters.Tabard.REINFORCEDROGUE,
+                    characters.Tabard.NORGUL,
                 ],
                 [
                     characters.Facing.RIGHT,
