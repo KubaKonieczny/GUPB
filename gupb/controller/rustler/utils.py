@@ -1,14 +1,21 @@
+from typing import Set, List, Dict
 from gupb.model import characters
 from gupb.model import coordinates
-
+from gupb.model import tiles
 def norm(coords: coordinates.Coords) -> int:
-        return abs(coords.x) + abs(coords.y)
+    return abs(coords.x) + abs(coords.y)
+
+def misted(tile_description: tiles.TileDescription) -> bool:
+    return sum([1 if effect.type == 'mist' else 0 for effect in tile_description.effects]) > 0
+
+def passable(tile_description: tiles.TileDescription) -> bool:
+    return tile_description.type in ['land','forest','menhir']
 
 def facing_to_cords(facing :characters.Facing) -> coordinates.Coords:
     if facing == characters.Facing.UP:
-        return coordinates.Coords(0, 1)
-    if facing == characters.Facing.DOWN:
         return coordinates.Coords(0, -1)
+    if facing == characters.Facing.DOWN:
+        return coordinates.Coords(0, 1)
     if facing == characters.Facing.RIGHT:
         return coordinates.Coords(1, 0)
     if facing == characters.Facing.LEFT:
