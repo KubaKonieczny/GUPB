@@ -57,7 +57,9 @@ class Tabard(Enum):
     R2D2 = 'R2D2'
     REINFORCEDROGUE = 'ReinforcedRogue'
     GAREK = "G.A.R.E.K"
-    CAMPER = 'Camper'
+    CAMPER = 'Camper'    
+    KIMDZONGNEAT = 'KimDzongNeat'
+
 
 class Champion:
     def __init__(self, starting_position: coordinates.Coords, arena: arenas.Arena) -> None:
