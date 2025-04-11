@@ -1,4 +1,4 @@
-from gupb.controller import keyboard, garek, kirby
+from gupb.controller import keyboard, garek, kirby, rustler
 from gupb.controller import random
 from gupb.controller.camperbot.camperbot import CamperBotController
 from gupb.controller.pirat import pirat
@@ -19,7 +19,8 @@ CONFIGURATION = {
         CamperBotController(""),
         kirby.KirbyController("Kirby"),
         pirat.PiratController("Pirat"),
-        BUPGController("")
+        BUPGController(""),
+        rustler.Rustler(""),
 
     ],
     'start_balancing': False,

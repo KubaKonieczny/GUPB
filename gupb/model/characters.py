@@ -60,6 +60,7 @@ class Tabard(Enum):
     KIRBY = 'Kirby'
     PIRAT = 'Pirat'
     MINION = 'Minion'
+    RUSTLER = 'Rustler'
 
 
 class Champion:
