@@ -14,9 +14,18 @@ CONFIGURATION = {
         random.RandomController("Cecilia"),
         random.RandomController("Darius"),
     ],
+<<<<<<< HEAD
     "start_balancing": False,
     "visualise": False,
     "show_sight": keyboard_controller,
     "runs_no": 100,
     "profiling_metrics": [],
 }
+=======
+    'start_balancing': False,
+    'visualise': True,
+    'show_sight': keyboard_controller,
+    'runs_no': 1,
+    'profiling_metrics': [],
+}
+>>>>>>> rouge/uzw-2025-lato-ReinforcedRogue

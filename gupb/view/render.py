@@ -73,8 +73,12 @@ class SpriteRepository:
             characters.Tabard.VIOLET: load_sprite('characters', 'champion_violet', BLACK),
             characters.Tabard.WHITE: load_sprite('characters', 'champion_white', BLACK),
             characters.Tabard.YELLOW: load_sprite('characters', 'champion_yellow', BLACK),
+<<<<<<< HEAD
             characters.Tabard.CAMPER: load_sprite('characters', 'champion_camper', BLACK),
             characters.Tabard.GAREK: load_sprite('characters', 'garek', BLACK),
+=======
+            characters.Tabard.REINFORCEDROGUE: load_sprite('characters', 'reinforced_rogue', BLACK),
+>>>>>>> rouge/uzw-2025-lato-ReinforcedRogue
 
             effects.Mist: load_sprite('effects', 'mist', BLACK),
             effects.WeaponCut: load_sprite('effects', 'blood', BLACK),
@@ -103,8 +107,12 @@ class SpriteRepository:
                     characters.Tabard.VIOLET,
                     characters.Tabard.WHITE,
                     characters.Tabard.YELLOW,
+<<<<<<< HEAD
                     characters.Tabard.CAMPER,
                     characters.Tabard.GAREK
+=======
+                    characters.Tabard.REINFORCEDROGUE
+>>>>>>> rouge/uzw-2025-lato-ReinforcedRogue
                 ],
                 [
                     characters.Facing.RIGHT,
