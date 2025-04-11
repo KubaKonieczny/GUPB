@@ -73,22 +73,9 @@ class SpriteRepository:
             characters.Tabard.VIOLET: load_sprite('characters', 'champion_violet', BLACK),
             characters.Tabard.WHITE: load_sprite('characters', 'champion_white', BLACK),
             characters.Tabard.YELLOW: load_sprite('characters', 'champion_yellow', BLACK),
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             characters.Tabard.CAMPER: load_sprite('characters', 'champion_camper', BLACK),
             characters.Tabard.GAREK: load_sprite('characters', 'garek', BLACK),
-=======
-            characters.Tabard.REINFORCEDROGUE: load_sprite('characters', 'reinforced_rogue', BLACK),
->>>>>>> rouge/uzw-2025-lato-ReinforcedRogue
-=======
             characters.Tabard.KIMDZONGNEAT: load_sprite('characters', 'kim_dzong', BLACK),
->>>>>>> neat/uzw-2025-lato
-=======
-            characters.Tabard.KIRBY: load_sprite('characters', 'kirby', BLACK),
->>>>>>> kirby/kirby_ddqn_2
-=======
             characters.Tabard.CAMPER: load_sprite('characters', 'champion_camper', BLACK),
             characters.Tabard.GAREK: load_sprite('characters', 'garek', BLACK),
             characters.Tabard.KIRBY: load_sprite('characters', 'kirby', BLACK),
@@ -97,8 +84,6 @@ class SpriteRepository:
             characters.Tabard.RUSTLER: load_sprite('characters', 'champion_rustler', BLACK),
             characters.Tabard.REINFORCEDROGUE: load_sprite('characters', 'reinforced_rogue', BLACK),
             characters.Tabard.NORGUL: load_sprite('characters', 'norgul', BLACK),
->>>>>>> garekbot/test-all-bots
-
             effects.Mist: load_sprite('effects', 'mist', BLACK),
             effects.WeaponCut: load_sprite('effects', 'blood', BLACK),
             effects.Fire: load_sprite('effects', 'fire', WHITE),
@@ -126,31 +111,16 @@ class SpriteRepository:
                     characters.Tabard.VIOLET,
                     characters.Tabard.WHITE,
                     characters.Tabard.YELLOW,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    characters.Tabard.CAMPER,
-                    characters.Tabard.GAREK
-=======
-                    characters.Tabard.REINFORCEDROGUE
->>>>>>> rouge/uzw-2025-lato-ReinforcedRogue
-=======
-                    characters.Tabard.KIMDZONGNEAT,
->>>>>>> neat/uzw-2025-lato
-=======
-                    characters.Tabard.KIRBY,
->>>>>>> kirby/kirby_ddqn_2
-=======
                     characters.Tabard.CAMPER,
                     characters.Tabard.GAREK,
+                    characters.Tabard.REINFORCEDROGUE,
+                    characters.Tabard.KIMDZONGNEAT,
                     characters.Tabard.KIRBY,
                     characters.Tabard.PIRAT,
                     characters.Tabard.MINION,
                     characters.Tabard.RUSTLER,
                     characters.Tabard.REINFORCEDROGUE,
                     characters.Tabard.NORGUL,
->>>>>>> garekbot/test-all-bots
                 ],
                 [
                     characters.Facing.RIGHT,

@@ -1,23 +1,13 @@
-from gupb.controller import keyboard, random
-from gupb.controller.camperbot.camperbot import CamperBotController
-from gupb.controller.garek.garek import GarekController
-
-from gupb.controller import keyboard
-from gupb.controller import random
-from gupb.controller import kirby_learning, kirby
-
-
-from gupb.controller import keyboard, garek, kirby, rustler, reinforced_rogue
-from gupb.controller import random
+from gupb.controller import garek, keyboard, kirby, random, reinforced_rogue, rustler
+from gupb.controller.bupg.bupg import BUPGController
 from gupb.controller.camperbot.camperbot import CamperBotController
 from gupb.controller.pirat import pirat
-from gupb.controller.bupg.bupg import BUPGController
 
 keyboard_controller = keyboard.KeyboardController()
 
 CONFIGURATION = {
     "arenas": ["ordinary_chaos"],
-    'controllers': [
+    "controllers": [
         random.RandomController("Alice"),
         random.RandomController("Bob"),
         random.RandomController("Cecilia"),
@@ -28,8 +18,7 @@ CONFIGURATION = {
         pirat.PiratController("Pirat"),
         BUPGController(""),
         rustler.Rustler(""),
-        reinforced_rogue.ReinforcedRogueController("")
-
+        reinforced_rogue.ReinforcedRogueController(""),
     ],
     "start_balancing": False,
     "visualise": False,
