@@ -49,7 +49,7 @@ class KirbyController(KirbyLearningController):
     def reset(self, game_no: int, arena_description: arenas.ArenaDescription) -> None:
         if game_no == 0:
             if os.path.exists("best_weights.pth"):
-                checkpoint = torch.load("best_weights.pth", weights_only=True)
+                checkpoint = torch.load("best_weights.pth", weights_only=True, map_location=torch.device('cpu'))
                 self.model_A.load_state_dict(checkpoint["model"])
                 self.model_B.load_state_dict(checkpoint["model"])
 

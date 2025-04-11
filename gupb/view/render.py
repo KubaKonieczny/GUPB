@@ -106,7 +106,7 @@ class SpriteRepository:
                     characters.Tabard.WHITE,
                     characters.Tabard.YELLOW,
                     characters.Tabard.CAMPER,
-                    characters.Tabard.GAREK
+                    characters.Tabard.GAREK,
                     characters.Tabard.KIRBY,
                 ],
                 [

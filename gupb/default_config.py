@@ -1,35 +1,25 @@
-from gupb.controller import keyboard
+from gupb.controller import keyboard, garek, kirby
 from gupb.controller import random
-from gupb.controller import kirby_learning, kirby
-
+from gupb.controller.camperbot.camperbot import CamperBotController
 
 keyboard_controller = keyboard.KeyboardController()
 
 CONFIGURATION = {
     'arenas': [
-        'archipelago',
-        'dungeon',
-        'fisher_island',
-        'island',
-        'isolated_shrine',
-        'lone_sanctum',
-        'mini',
-        'ordinary_chaos',
-        'wasteland',
+        'ordinary_chaos'
     ],
     'controllers': [
-        # keyboard_controller,
         random.RandomController("Alice"),
         random.RandomController("Bob"),
         random.RandomController("Cecilia"),
         random.RandomController("Darius"),
-        # kirby_learning.KirbyLearningController("KirbyLearning"),
+        garek.GarekController(""),
+        CamperBotController(""),
         kirby.KirbyController("Kirby")
-
     ],
     'start_balancing': False,
     'visualise': False,
-    'show_sight': None,
-    'runs_no': 10,  # kirby.ROUNDS_NO,
+    'show_sight': keyboard_controller,
+    'runs_no': 50,
     'profiling_metrics': [],
 }
