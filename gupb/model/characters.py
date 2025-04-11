@@ -59,6 +59,7 @@ class Tabard(Enum):
     GAREK = "G.A.R.E.K"
     CAMPER = 'Camper'    
     KIMDZONGNEAT = 'KimDzongNeat'
+    KIRBY = 'Kirby'
 
 
 class Champion:

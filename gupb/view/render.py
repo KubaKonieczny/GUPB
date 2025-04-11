@@ -75,6 +75,7 @@ class SpriteRepository:
             characters.Tabard.YELLOW: load_sprite('characters', 'champion_yellow', BLACK),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             characters.Tabard.CAMPER: load_sprite('characters', 'champion_camper', BLACK),
             characters.Tabard.GAREK: load_sprite('characters', 'garek', BLACK),
 =======
@@ -83,6 +84,9 @@ class SpriteRepository:
 =======
             characters.Tabard.KIMDZONGNEAT: load_sprite('characters', 'kim_dzong', BLACK),
 >>>>>>> neat/uzw-2025-lato
+=======
+            characters.Tabard.KIRBY: load_sprite('characters', 'kirby', BLACK),
+>>>>>>> kirby/kirby_ddqn_2
 
             effects.Mist: load_sprite('effects', 'mist', BLACK),
             effects.WeaponCut: load_sprite('effects', 'blood', BLACK),
@@ -113,6 +117,7 @@ class SpriteRepository:
                     characters.Tabard.YELLOW,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     characters.Tabard.CAMPER,
                     characters.Tabard.GAREK
 =======
@@ -121,6 +126,9 @@ class SpriteRepository:
 =======
                     characters.Tabard.KIMDZONGNEAT,
 >>>>>>> neat/uzw-2025-lato
+=======
+                    characters.Tabard.KIRBY,
+>>>>>>> kirby/kirby_ddqn_2
                 ],
                 [
                     characters.Facing.RIGHT,
