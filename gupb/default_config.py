@@ -1,6 +1,8 @@
 from gupb.controller import keyboard, garek, kirby
 from gupb.controller import random
 from gupb.controller.camperbot.camperbot import CamperBotController
+from gupb.controller.pirat import pirat
+from gupb.controller.bupg.bupg import BUPGController
 
 keyboard_controller = keyboard.KeyboardController()
 
@@ -15,7 +17,10 @@ CONFIGURATION = {
         random.RandomController("Darius"),
         garek.GarekController(""),
         CamperBotController(""),
-        kirby.KirbyController("Kirby")
+        kirby.KirbyController("Kirby"),
+        pirat.PiratController("Pirat"),
+        BUPGController("")
+
     ],
     'start_balancing': False,
     'visualise': False,

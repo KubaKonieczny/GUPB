@@ -78,6 +78,7 @@ class SpriteRepository:
             characters.Tabard.GAREK: load_sprite('characters', 'garek', BLACK),
             characters.Tabard.KIRBY: load_sprite('characters', 'kirby', BLACK),
             characters.Tabard.PIRAT: load_sprite('characters', 'pirat', BLACK),
+            characters.Tabard.MINION: load_sprite('characters', 'minion', None),
 
             effects.Mist: load_sprite('effects', 'mist', BLACK),
             effects.WeaponCut: load_sprite('effects', 'blood', BLACK),
@@ -110,6 +111,7 @@ class SpriteRepository:
                     characters.Tabard.GAREK,
                     characters.Tabard.KIRBY,
                     characters.Tabard.PIRAT,
+                    characters.Tabard.MINION,
                 ],
                 [
                     characters.Facing.RIGHT,

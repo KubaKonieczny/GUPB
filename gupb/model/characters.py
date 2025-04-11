@@ -59,6 +59,7 @@ class Tabard(Enum):
     GAREK = "G.A.R.E.K."
     KIRBY = 'Kirby'
     PIRAT = 'Pirat'
+    MINION = 'Minion'
 
 
 class Champion:
