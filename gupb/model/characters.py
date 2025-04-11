@@ -57,6 +57,7 @@ class Tabard(Enum):
     R2D2 = 'R2D2'
     CAMPER = 'Camper'
     GAREK = "G.A.R.E.K."
+    KIRBY = 'Kirby'
 
 
 class Champion:
