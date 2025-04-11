@@ -54,7 +54,7 @@ class Tabard(Enum):
     KROMBOPULOS = 'Krombopulos'
     MONGOL = 'Mongolek'
     PIKACHU = 'Pikachu'
-    R2D2 = 'R2D2'
+    GAREK = "G.A.R.E.K"
     CAMPER = 'Camper'
 
 class Champion:

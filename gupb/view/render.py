@@ -63,7 +63,6 @@ class SpriteRepository:
 
             characters.Tabard.BLUE: load_sprite('characters', 'champion_blue', BLACK),
             characters.Tabard.BROWN: load_sprite('characters', 'champion_brown', BLACK),
-            characters.Tabard.GREY: load_sprite('characters', 'champion_grey', BLACK),
             characters.Tabard.GREEN: load_sprite('characters', 'champion_green', BLACK),
             characters.Tabard.LIME: load_sprite('characters', 'champion_lime', BLACK),
             characters.Tabard.ORANGE: load_sprite('characters', 'champion_orange', BLACK),
@@ -75,6 +74,8 @@ class SpriteRepository:
             characters.Tabard.WHITE: load_sprite('characters', 'champion_white', BLACK),
             characters.Tabard.YELLOW: load_sprite('characters', 'champion_yellow', BLACK),
             characters.Tabard.CAMPER: load_sprite('characters', 'champion_camper', BLACK),
+            characters.Tabard.GAREK: load_sprite('characters', 'champion_grey', BLACK),
+
 
             effects.Mist: load_sprite('effects', 'mist', BLACK),
             effects.WeaponCut: load_sprite('effects', 'blood', BLACK),
