@@ -1,4 +1,4 @@
-from gupb.controller import keyboard, garek, kirby, rustler
+from gupb.controller import keyboard, garek, kirby, rustler, reinforced_rogue
 from gupb.controller import random
 from gupb.controller.camperbot.camperbot import CamperBotController
 from gupb.controller.pirat import pirat
@@ -21,6 +21,7 @@ CONFIGURATION = {
         pirat.PiratController("Pirat"),
         BUPGController(""),
         rustler.Rustler(""),
+        reinforced_rogue.ReinforcedRogueController("")
 
     ],
     'start_balancing': False,

@@ -61,6 +61,7 @@ class Tabard(Enum):
     PIRAT = 'Pirat'
     MINION = 'Minion'
     RUSTLER = 'Rustler'
+    REINFORCEDROGUE = 'ReinforcedRogue'
 
 
 class Champion:
